@@ -1,0 +1,42 @@
+{
+  "scope": "checkpoint_identity_and_tensor_difference_not_accuracy_evaluation",
+  "default_variant": "updated",
+  "checkpoints": [
+    {
+      "view": "hongguan",
+      "files": [
+        {
+          "file": "sunshangshibie_tiaozhan/output/models/model_hongguan.pth",
+          "bytes": 85810075,
+          "sha256": "c92c847b530b7d999291bc1fb7bb8e1029be05b0f2102d1a553517bb5f089367"
+        },
+        {
+          "file": "sunshangshibie_tiaozhan/output/models/model_hongguan_updated.pth",
+          "bytes": 85811915,
+          "sha256": "07b2dd4928f5152aaffb3cf05e2c9469553b89e26ed76286f4e3e8e69430290a"
+        }
+      ],
+      "tensor_count": 220,
+      "changed_tensor_count": 220,
+      "classifier_head_changed": true
+    },
+    {
+      "view": "tishijing",
+      "files": [
+        {
+          "file": "sunshangshibie_tiaozhan/output/models/model_tishijing.pth",
+          "bytes": 85810297,
+          "sha256": "cd39497d7ccf948645c3e38a3352c92f666c4ea0ec29e40da49a0342df8eb347"
+        },
+        {
+          "file": "sunshangshibie_tiaozhan/output/models/model_tishijing_updated.pth",
+          "bytes": 85812137,
+          "sha256": "3441c3c7ef8dd58d6cd9280387eafbb1ea603f67e8e7bb7e48c5af302a5ebe07"
+        }
+      ],
+      "tensor_count": 220,
+      "changed_tensor_count": 220,
+      "classifier_head_changed": true
+    }
+  ]
+}

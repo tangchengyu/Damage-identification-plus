@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "scope": "project_smoke_checks_not_independent_model_evaluation",
+  "images_verified": 98,
+  "classification_ready_images": 78,
+  "source_metadata_unchanged": true,
+  "python_files_syntax_checked": 28,
+  "gui_controls": 10,
+  "gui_default_model_variant": "updated",
+  "gui_lifetime_bridge_and_subsequent_classification": "passed",
+  "runtime": {
+    "python": "3.11.11",
+    "torch": "2.3.1",
+    "cuda_available": false
+  },
+  "elapsed_seconds": 24.61,
+  "date": "2026-10-04",
+  "classification_inference_checks": 16,
+  "regression_test_count": 20,
+  "regression_status": "passed",
+  "lifetime_inference": "finite_output_with_unverified_label_provenance",
+  "independent_accuracy_evaluation": false,
+  "retrained": false,
+  "limitations": [
+    "Historical labels and specimen identity remain unverified",
+    "Not all interactive measurement operations were exercised",
+    "Checkpoints and source data are excluded from the public repository"
+  ]
+}

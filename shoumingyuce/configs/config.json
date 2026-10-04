@@ -1,0 +1,24 @@
+{
+  "model": {
+    "embedding_dim": 256,
+    "hidden_dim": 512,
+    "num_heads": 8,
+    "num_layers": 4,
+    "dropout": 0.1,
+    "feature_dim": 512
+  },
+  "training": {
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "num_epochs": 100,
+    "early_stopping_patience": 15,
+    "weight_decay": 0.0001
+  },
+  "data": {
+    "damage_model_path": "../sunshangshibie_tiaozhan/output/models/model_hongguan_updated.pth",
+    "data_path": "../data",
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15
+  }
+}

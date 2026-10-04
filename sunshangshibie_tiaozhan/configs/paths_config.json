@@ -1,0 +1,8 @@
+{
+  "data_path": "../data",
+  "output_path": "./output",
+  "models_path": "./output/models",
+  "logs_path": "./output/logs",
+  "results_path": "./output/results",
+  "visualization_path": "./visualization"
+}
